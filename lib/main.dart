@@ -26,7 +26,7 @@ class ISLTranslatorApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => HomePage(),
-        '/isl-to-language': (context) => ISLToLanguagePage(),
+        '/isl-to-language': (context) => IslToLanguagePage(),
         '/language-to-isl': (context) => LanguageToISLPage(),
         '/result': (context) => ResultPage(),
       },
